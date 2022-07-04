@@ -27,7 +27,7 @@ public class EmployeeWageCompanysMain {
 			public void  Welcome() {
 			System.out.println("Welcome to Employee Wage Computation program");
 			}
-			
+	//
 	private void computeWage() {
 		for (int i=0; i< numOfCompany; i++) {
 			companyArray[i].setTotalWage(computeWage(companyArray[i]));
@@ -42,7 +42,7 @@ public class EmployeeWageCompanysMain {
 	     int totalWorkHours = 0;
 		 int totalEmployeeWage =0;
 		 
-		 while (totalWorkHours< EmployeeWageCompanys.getTotalHoursinMonth() && totalWorkDays <= EmployeeWageCompanys.getNumberOfWorkingDays()) {
+		 while (totalWorkHours< EmployeeWageCompanys.getTotalHoursinMonth() && totalWorkDays < EmployeeWageCompanys.getNumberOfWorkingDays()) {
 				int isPresent = (int) Math.floor(Math.random()*10) %3;
 				switch (isPresent) {
 					case employeePresent :

@@ -47,7 +47,7 @@ public class EmployeeWageCompanys {
 	@Override
 	public String toString() {
 		return "[Company= " + Company + ", WagePerHour= " + WagePerHour + ", NumberOfWorkingDays= "
-				+ NumberOfWorkingDays + ", TotalHoursinMonth= " + TotalHoursinMonth + ", totalWage= " + totalWage
+				+ NumberOfWorkingDays + ", TotalHoursinMonth= " + TotalHoursinMonth
 				+"]";
 		
 	}
